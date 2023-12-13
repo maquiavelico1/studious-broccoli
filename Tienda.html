@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #da291c;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .navbar-brand {
+            color: white;
+        }
+
+        .navbar-nav .nav-link {
+            color: white;
+        }
+
+        section {
+            background-color: white;
+            color: #333;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            transition: all 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+        }
+        .card-img-top {
+            border-radius: 10px 10px 0 0;
+            height: 225px;
+            object-fit: cover;
+        }
+        .card-title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .btn-primary {
+            background-color: #da291c; 
+            border-color: #da291c;
+        }
+        .btn-primary:hover {
+            background-color: #b22234;
+            border-color: #b22234;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger"> 
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="Logo/logo.png" alt="Manchester United" width="50" height="50">
+          <small style="font-size: 12px; text-transform: uppercase; display: block;">Página no oficial del Manchester United</small>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Historia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Equipo.html">Equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Estadio.html">Estadio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Partidos.html">Partidos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Noticias.html">Noticias</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="Tienda.html">Tienda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Foro.html">registrate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contacto.html">creedito</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+        </header>
+    <section>
+      <div class="container">
+        <h1>Tienda de Uniformes</h1>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src="uniformes/uni1.jpeg" alt="Uniforme 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Uniforme 1</h5>
+                        <p class="card-text">Talla XL</p>
+                        <a href="Galeria.html" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src="uniformes/uni2.jpeg" alt="Uniforme 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Uniforme 2</h5>
+                        <p class="card-text">Talla XL</p>
+                        <a href="Galeria.html" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src="uniformes/uni3.jpeg" alt="Uniforme 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Uniforme 3</h5>
+                        <p class="card-text">Talla XL</p>
+                        <a href="Galeria.html" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-sm-4">
+              <div class="card">
+                  <img class="card-img-top" src="uniformes/uni4.jpeg" alt="Uniforme 3">
+                  <div class="card-body">
+                      <h5 class="card-title">Uniforme 4</h5>
+                      <p class="card-text">Talla XL</p>
+                      <a href="Galeria.html" class="btn btn-primary">Comprar</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+                <img class="card-img-top" src="uniformes/uni5.png" alt="Uniforme 3">
+                <div class="card-body">
+                    <h5 class="card-title">Uniforme 5</h5>
+                    <p class="card-text">Talla XL</p>
+                    <a href="Galeria.html" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+              <img class="card-img-top" src="uniformes/uni6.png" alt="Uniforme 3">
+              <div class="card-body">
+                  <h5 class="card-title">Uniforme 6</h5>
+                  <p class="card-text">Talla XL</p>
+                  <a href="Galeria.html" class="btn btn-primary">Comprar</a>
+              </div>
+          </div>
+      </div>
+    
+        </div>
+    </div>
+    
+    </section>
+    <footer class="bg-dark text-white mt-5 p-4 text-center">
+      <div class="container">
+        <p class="mb-0">© 2023 Luis Miguel Condori Nina</p>
+        <p class="mb-0">Carnet: 10025431</p>
+      </div>
+  </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+</body>
+</html>
